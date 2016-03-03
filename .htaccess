@@ -30,6 +30,19 @@
   RewriteCond %{REQUEST_URI} !/server-status
   RewriteRule .* /index.php [L]
 
+  # JSON-LD
+  RewriteCond %{HTTP_ACCEPT} text/json
+  RewriteCond %{REQUEST_URI} ^/id/(.*)$
+  RewriteRule id/(.*)$ https://katalogbeta.slub-dresden.de/id/$1.json [R=303,L]
+
+  RewriteCond %{HTTP_ACCEPT} application/ld+json
+  RewriteCond %{REQUEST_URI} ^/id/(.*)$
+  RewriteRule id/(.*)$ https://katalogbeta.slub-dresden.de/id/$1.json [R=303,L]
+
+  RewriteCond %{REQUEST_URI} ^(.*)\.json$
+  RewriteRule id/(.*)\.json$ http://%{HTTP_HOST}%1/?type=1369315139&tx_find_find\%5Bformat\%5D=data&tx_find_find\%5Bdata-format\%5D=json-ld [P]
+
+
 </IfModule>
 
 # gzip compression of all assets
