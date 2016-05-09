@@ -1,6 +1,6 @@
 {
 	"repositories": [
-		{ "type": "composer", "url": "http://composer.typo3.org/" },
+		{ "type": "composer", "url": "https://composer.typo3.org/" },
 		{ "type": "vcs", "url": "https://github.com/slub/typo3-find/" },
 	  	{ "type": "vcs", "url": "https://github.com/slub/slub-find-extend/" },
 	  	{ "type": "vcs", "url": "git@git.slub-dresden.de:slub-webseite/slub-katalog-config.git" },
