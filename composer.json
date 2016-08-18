@@ -2,9 +2,7 @@
 	"repositories": [
 		{ "type": "composer", "url": "http://composer.typo3.org/" },
 		{ "type": "vcs", "url": "https://github.com/slub/typo3-find/" },
-	  	{ "type": "vcs", "url": "https://github.com/slub/slub-find-extend/" },
-	  	{ "type": "vcs", "url": "git@git.slub-dresden.de:slub-webseite/slub-katalog-config.git" },
-	  	{ "type": "vcs", "url": "git@git.slub-dresden.de:slub-webseite/slub-katalog-beta.git" }
+	  	{ "type": "vcs", "url": "https://github.com/slub/slub-find-extend/" }
 	],
 	"name": "slub/typo3-dist",
 	"description" : "TYPO3 CMS Base Distribution",
@@ -14,13 +12,11 @@
 	  "bin-dir": "bin"
 	},
 	"require": {
-		"typo3/cms": "6.2.14",
+		"typo3/cms": "^6.2.14",
 	  	"typo3-ter/realurl": "^1.13",
 	  	"typo3-ter/t3jquery": "^3.0",
 		"slub/find": "dev-slub",
-	  	"slub/slub-find-extend": "dev-master",
-	  	"slub/slub-katalog-config": "dev-master",
-	  	"slub/slub-katalog-beta": "dev-master"
+	  	"slub/slub-find-extend": "dev-master"
 	},
 	"minimum-stability": "dev"
 }
