@@ -14,7 +14,7 @@
 	  "bin-dir": "bin"
 	},
 	"require": {
-		"typo3/cms": "6.2.14",
+		"typo3/cms": "6.2.31",
 	  	"typo3-ter/realurl": "^1.13",
 	  	"typo3-ter/t3jquery": "^3.0",
 		"slub/find": "dev-slub",
