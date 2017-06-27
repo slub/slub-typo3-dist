@@ -17,6 +17,8 @@ index.php
 typo3
 typo3conf/ENABLE_INSTALL_TOOL
 typo3conf/deprecation_*.log
+typo3conf/LocalConfiguration.php
+typo3conf/realurl_autoconf.php
 !typo3temp/index.html
 typo3temp/realurl_*
 typo3temp/rtehtmlarea_*
@@ -39,3 +41,4 @@ typo3temp/llxml/*
 !typo3temp/pics/index.html
 typo3temp/temp/*
 !typo3temp/temp/index.html
+typo3temp/*
