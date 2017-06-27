@@ -5,7 +5,8 @@
 	  	{ "type": "vcs", "url": "https://github.com/slub/slub-find-extend/" },
 	  	{ "type": "vcs", "url": "git@git.slub-dresden.de:slub-webseite/slub-katalog-config.git" },
 	  	{ "type": "vcs", "url": "git@git.slub-dresden.de:slub-webseite/slub-katalog-beta.git" },
-		{ "type": "vcs", "url": "git@git.slub-dresden.de:slub-webseite/slub-use-primoproxy.git"}
+		{ "type": "vcs", "url": "git@git.slub-dresden.de:slub-webseite/slub-use-primoproxy.git"},
+		{ "type": "vcs", "url": "git@git.slub-dresden.de:slub-webseite/slub-shibboleth.git"}
 	],
 	"name": "slub/typo3-dist",
 	"description" : "TYPO3 CMS Base Distribution",
@@ -22,7 +23,8 @@
 	  	"slub/slub-find-extend": "dev-master",
 	  	"slub/slub-katalog-config": "dev-master",
 	  	"slub/slub-katalog-beta": "dev-master",
-		"slub/slub-use-primoproxy": "dev-master"
+		"slub/slub-use-primoproxy": "dev-master",
+		"slub/slub-shibboleth": "dev-master"
 	},
 	"minimum-stability": "dev"
 }
