@@ -2,8 +2,8 @@
 .idea
 nbproject
 
-fileadmin
-uploads
+public/fileadmin
+public/uploads
 
 auth.json
 
